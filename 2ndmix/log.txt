@@ -1,0 +1,58 @@
+Console enabled
+Upload <2ndmix.elf>
+File format is ELF, start address is 0x8c010000
+Section .text, lma 0x8c010000, size 289400
+dcload-ip 2.0.0 using Broadband Adapter (HIT-0400)
+Section .init, lma 0x8c056a78, size 54
+Section .fini, lma 0x8c056ab0, size 42
+Section .rodata, lma 0x8c056adc, size 252616
+Section .eh_frame, lma 0x8c0945a4, size 452
+Section .ctors, lma 0x8c0947e8, size 8
+Section .dtors, lma 0x8c0947f0, size 8
+Section .data, lma 0x8c094800, size 32244
+Section .got, lma 0x8c09c5f4, size 12
+Transferred 574836 bytes at 22903797.299692 bytes / sec
+Executing at <0xac010000>
+Sending execute command (0xac010000, console=1, cdfsredir=0)...executing
+
+--
+KallistiOS Git revision b0a75b33:
+  Sat Jun  3 04:43:38 PM CDT 2023
+  darc@gentoostation.darcserv.net:/opt/toolchains/dc/kos
+  sh-elf-gcc (GCC) 13.1.0
+thd: pre-emption enabled, HZ=100
+maple: active drivers:
+    Dreameye (Camera): Camera
+    Sound Input Peripheral: Microphone
+    PuruPuru (Vibration) Pack: JumpPack
+    VMU Driver: Clock, LCD, MemoryCard
+    Mouse Driver: Mouse
+    Keyboard Driver: Keyboard
+    Controller Driver: Controller
+    Lightgun: LightGun
+  DMA Buffer at ac0e41a0
+vid_set_mode: 640x480 VGA
+fs_romdisk: mounting image at 0x8c05e2d0 at /rd
+dc-load console support enabled
+maple: attached devices:
+  A0: Dreamcast Controller          (01000000: Controller)
+  A2: Puru Puru Pack                (00010000: JumpPack)
+2ndMix/KallistiOS starting
+Initializing new PVR system
+pvr: disabling vertical scaling for VGA
+Initializing stars
+Init font
+Image is 256x256 (65536 bytes)
+Drawing into 0xa4242520
+Loading music
+Loading /rd/e-79014.s3m
+Loading ARM program
+Start
+Done
+Starting display
+Done, returning
+arch: exit return code 0
+arch: shutting down kernel
+maple: final stats -- device count = 2, vbl_cntr = 6139, dma_cntr = 6138
+vid_set_mode: 640x480 VGA
+fs_romdisk: unmounting image at 0x8c05e2d0 from /rd
